@@ -1,18 +1,11 @@
-//
-//  LoginInputsView.swift
-//  TravelApp
-//
-//  Created by Tellus Company on 21/06/24.
-//
-
 import SwiftUI
 
 struct LoginInputsView: View {
-    @Binding var user: String
-    @Binding var password: String
+    @ObservedObject var loginModel: LoginModel
+
     var body: some View {
         VStack () {
-            TextField("", text: $user).placeholder(when: user.isEmpty){
+            TextField("", text: $loginModel.user).placeholder(when: loginModel.user.isEmpty){
                 Text("Usuário").foregroundColor(Color(CGColor(red: 58 / 255, green: 166 / 255, blue: 200 / 255, alpha: 1)))
             }
             .foregroundColor(Color(CGColor(red: 58 / 255, green: 166 / 255, blue: 200 / 255, alpha: 1)))
@@ -24,7 +17,7 @@ struct LoginInputsView: View {
             .background(RoundedRectangle(cornerRadius: 5).fill(Color.white.opacity(0.9)))
             .padding(.bottom,5)
             
-            SecureField("", text: $password).placeholder(when: password.isEmpty){
+            SecureField("", text: $loginModel.password).placeholder(when: loginModel.password.isEmpty){
                 Text("Senha").foregroundColor(Color(CGColor(red: 58 / 255, green: 166 / 255, blue: 200 / 255, alpha: 1)))
             }
             .foregroundColor(Color(CGColor(red: 58 / 255, green: 166 / 255, blue: 200 / 255, alpha: 1)))
