@@ -21,7 +21,6 @@
 		45CE08282C25F39700BA6B90 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE08272C25F39700BA6B90 /* SearchView.swift */; };
 		45CE082A2C25F3A100BA6B90 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE08292C25F3A100BA6B90 /* ProfileView.swift */; };
 		45CE08302C26027700BA6B90 /* SearchCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CE082F2C26027700BA6B90 /* SearchCategoryButton.swift */; };
-		45D971432C2AFAF70012EE1C /* RegisterBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D971422C2AFAF70012EE1C /* RegisterBottomSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		45CE08272C25F39700BA6B90 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		45CE08292C25F3A100BA6B90 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		45CE082F2C26027700BA6B90 /* SearchCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryButton.swift; sourceTree = "<group>"; };
-		45D971422C2AFAF70012EE1C /* RegisterBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBottomSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				45CE08272C25F39700BA6B90 /* SearchView.swift */,
 				45CE08292C25F3A100BA6B90 /* ProfileView.swift */,
 				45CE082F2C26027700BA6B90 /* SearchCategoryButton.swift */,
-				45D971422C2AFAF70012EE1C /* RegisterBottomSheetView.swift */,
 				4557026E2C331BB8003DF9ED /* HotelView.swift */,
 			);
 			path = Views;
@@ -197,7 +194,6 @@
 				459C83B92C2327E000734BA5 /* LoginModel.swift in Sources */,
 				4557026A2C32DB45003DF9ED /* HotelModel.swift in Sources */,
 				459C83A92C23244900734BA5 /* HomeView.swift in Sources */,
-				45D971432C2AFAF70012EE1C /* RegisterBottomSheetView.swift in Sources */,
 				455702682C32DB25003DF9ED /* SearchModel.swift in Sources */,
 				459C839B2C23214500734BA5 /* LoginView.swift in Sources */,
 				459C83992C23214500734BA5 /* TravelAppApp.swift in Sources */,
