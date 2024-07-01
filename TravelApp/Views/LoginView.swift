@@ -8,11 +8,11 @@ struct LoginView: View {
             ZStack {
                 Color(CGColor(red: 58 / 255, green: 166 / 255, blue: 200 / 255, alpha: 1)).ignoresSafeArea()
                 
-//                Image("IconImage")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .opacity(1)
-//                    .padding(100)
+                Image("IconImage")
+                    .resizable()
+                    .scaledToFit()
+                    .opacity(1)
+                    .padding(100)
                 Spacer()
                 
                 VStack {
